@@ -1,0 +1,344 @@
+@font-face {
+  font-family: Noto Sans KR;
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Open+Sans&display=swap");
+  font-family: SCDream3;
+  src: url("./SCDream3.otf");
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  font-family: SCDream3;
+}
+
+:root {
+  --main-background-color: #fbf7f2;
+  --point-color1: #ff9647;
+  --point-color2: #47a09b;
+}
+
+body {
+  height: 2000px;
+}
+
+.divide {
+  width: 250px;
+  height: 2px;
+  margin: 8px 0px;
+  background-color: #ccc;
+}
+
+#shadow-text {
+  color: rgb(172, 169, 169);
+  font-size: 0.8em;
+  margin: 10px 0px;
+}
+
+.fixed-bar {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  border: solid 1px #e9ecef;
+}
+
+.fixed-bar-wrap {
+  width: 1100px;
+  margin: 0px auto;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.fixed-bar-search {
+  position: absolute;
+  left: 152px;
+  top: 20px;
+  border-radius: 5px;
+  border: solid 1px #e9ecef;
+  text-decoration: none;
+  padding: 0 1.6rem;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.fixed-bar-menu {
+  position: absolute;
+  display: flex;
+  right: 0;
+  top: 15px;
+  color: #4d5159;
+}
+
+.fixed-bar-search-input {
+  width: 340px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1em;
+  background-color: transparent;
+  opacity: 0.7;
+  padding: 9px 0px;
+}
+
+.fixed-bar-search-button {
+  font-size: 1.1em;
+  border: none;
+  background-color: transparent;
+  color: rgb(202, 201, 201);
+  padding: 9px 0px;
+}
+.fixed-bar-search-button:hover {
+  cursor: pointer;
+}
+
+.fixed-bar-menu-button {
+  border: solid 1px #e9ecef;
+  outline: none;
+  margin-right: 30px;
+  font-size: 1.1em;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: transparent;
+  font-family: Noto Sans KR;
+  font-weight: 600;
+  color: #4d5159;
+}
+
+.home-main-section,
+.home-main-section-top {
+  height: 800px;
+  background-color: var(--main-background-color);
+}
+
+.home-main-section-top-texts {
+  height: 300px;
+  position: absolute;
+  left: 12%;
+  top: 35%;
+  font-size: 1.9em;
+  color: #4c576d;
+}
+
+.you-divide {
+  width: 250px;
+  height: 2px;
+  margin: 8px;
+  background-color: var(--point-color1);
+}
+
+.me-divide {
+  width: 250px;
+  height: 2px;
+  margin: 8px;
+  background-color: var(--point-color2);
+}
+
+.home-main-section-top-img {
+  position: absolute;
+  left: 50%;
+  top: 28%;
+  width: 600px;
+  height: 400px;
+  background: #fbf7f2
+    url("https://blog.kakaocdn.net/dn/DcxXi/btqW1sSXADC/P1RUUD2kXqkLQxqKn5GuT0/img.png")
+    no-repeat;
+  background-size: 600px 400px;
+  border-radius: 15px;
+}
+
+.home-main-content {
+  height: 800px;
+  background-color: #fff;
+  display: flex;
+}
+
+.home-main-content {
+  position: relative;
+}
+
+.home-main-content-top-title {
+  position: absolute;
+  left: 18%;
+  top: 8%;
+  font-size: 1.3em;
+}
+
+.home-main-content-top-img {
+  position: absolute;
+  left: 8%;
+  top: 20%;
+  border-left: 1px solid #ccc;
+  padding: 0px 50px;
+}
+
+/* #circle1,
+#circle2,
+#circle3,
+#circle4,
+#circle5,
+#circle6 {
+  transition: transform 300ms ease-in;
+}
+#circle1:hover,
+#circle2:hover,
+#circle3:hover,
+#circle4:hover,
+#circle5:hover,
+#circle6:hover {
+  transform: scale(1.2);
+} */
+
+.heavy {
+  font: 30px sans-serif;
+  fill: #fbf7f2;
+}
+
+.home-main-content-bottom {
+  position: absolute;
+  left: 45%;
+  top: 8%;
+  font-size: 1.3em;
+  border-left: 1px solid #ccc;
+  padding: 0px 50px;
+}
+
+.home-main-content-bottom-list {
+  list-style: none;
+  margin-top: 50px;
+}
+
+.home-main-content-last {
+  position: absolute;
+  left: 75%;
+  top: 8%;
+  border-left: 1px solid #ccc;
+  padding: 0px 50px;
+}
+
+.home-main-content-last-title {
+  font-size: 1.3em;
+}
+
+.home-main-content-bottom-list p a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #4d5159;
+  margin: 10px 0px;
+}
+
+.project-main-section {
+  height: 800px;
+  background-color: #e6f3e6;
+  position: relative;
+}
+
+.project-main-section-top-title {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.project-main-section-bottom {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 1.5em;
+}
+
+.project-main-section-buttons {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.file-main-section,
+.file-main-section-top {
+  width: 100%;
+  height: 800px;
+  background-color: var(--main-background-color);
+  position: relative;
+}
+
+.file-main-section-top-img {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  width: 600px;
+  height: 400px;
+  background: #fbf7f2
+    url("https://blog.kakaocdn.net/dn/DcxXi/btqW1sSXADC/P1RUUD2kXqkLQxqKn5GuT0/img.png")
+    no-repeat;
+  background-size: 600px 400px;
+  border-radius: 15px;
+}
+
+.file-main-section-top-texts {
+  height: 300px;
+  position: absolute;
+  left: 12%;
+  top: 20%;
+  font-size: 1.9em;
+  color: #4c576d;
+}
+
+.file-main-section-top-img {
+  height: 400px;
+  background-color: var(--main-background-color);
+}
+
+.file-main-section-top-buttons-top {
+  position: relative;
+  /* 버튼이 뭉치지 않고 차례로 정렬됨 */
+  top: 60%;
+  left: 10%;
+  width: 600px;
+}
+
+.file-main-section-top-buttons-bottom {
+  position: relative;
+  /* 버튼이 뭉치지 않고 차례로 정렬됨 */
+  top: 70%;
+  left: 10%;
+  width: 100%;
+}
+
+.buttons {
+  border: solid 1px rgb(5, 5, 5);
+  outline: none;
+  margin-right: 30px;
+  font-size: 1.1em;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: transparent;
+  font-family: Noto Sans KR;
+  font-weight: 600;
+  color: #4d5159;
+  cursor: pointer;
+}
+
+#footer {
+  height: 100px;
+  line-height: 120px;
+  text-align: center;
+  background-color: #99a3b89a;
+}
+
+/* Scroll Animation (sa, 스크롤 애니메이션) */
+.sa {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: none;
+}
+
+/* 커진 상태에서 작아지면서 페이드 인 */
+.scaleDown {
+  transform: scale(1);
+}

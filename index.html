@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./main.js" defer></script>
+  <script src="https://kit.fontawesome.com/6b4de952c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="fixed-bar">
+    <div class="fixed-bar-wrap">
+      <div class="fixed-bar-logo-title">
+        <a href="https://www.daangn.com/">
+          <img class="fixed-logo" alt="당근마켓" src="https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/logo-basic-24b18257ac4ef693c02233bf21e9cb7ecbf43ebd8d5b40c24d99e14094a44c81.svg" alt="당근마켓로고">
+        </a>
+      </div>
+
+      <section class="fixed-bar-search">
+        <input placeholder="동네 이름 및 물품명 등을 검색해보세요!" type="text" class="fixed-bar-search-input">
+        <button class="fixed-bar-search-button">
+          <i class="fas fa-search"></i>
+        </button>
+      </section>
+
+      <section class="fixed-bar-menu">
+        <button class="fixed-bar-menu-button download">
+          <span>다운로드</span>
+          <svg class="menu-icon-svg" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L6 6L11 1" stroke="#4D5159" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </button>
+        <button class="fixed-bar-menu-button chat">
+          <span>당근채팅 <span style="color:rgb(255, 153, 0); font-size: 0.9em">Beta</span></span>
+        </button>
+      </section>
+    </div>
+  </header>
+
+  <section class="home-main-section">
+    <div class="home-main-section-top">
+      <div class="home-main-section-top-texts">
+        <p style="color: orange">YOU</p>
+        <div class="you-divide"></div>
+        <p id="you"></p><br>
+        <p style="color: green">ME</p>
+        <div class="me-divide"></div>
+        <p id="me"></p>
+      </div>
+      <div class="home-main-section-top-img"></div>
+    </div>
+  </section>
+
+  <section class="home-main-content">
+    <div class="home-main-content-top">
+      <div class="home-main-content-top-title">
+        <h1>TECH STACK</h1>
+        <p id="shadow-text">"다음과 같은 기술을 가지고 있습니다"</p>
+      </div>
+      <div class="home-main-content-top-img">
+        <svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+          <circle class='sa scaleDown' id="circle1" cx="170" cy="100"  r="100" fill="#c1e8ef" /> 
+          <text x="120" y="110" class="heavy">Python</text>
+          <circle class='sa scaleDown' id="circle2" cx="270" cy="50" r="50" fill="#97cdc1" /> 
+          <text x="230" y="60" class="heavy">HTML</text>
+          <circle class='sa scaleDown' id="circle3" cx="350" cy="170" r="70" fill="#f3eca0" />
+          <text x="320" y="180" class="heavy">CSS</text>
+          <circle class='sa scaleDown' id="circle4" cx="240" cy="350"  r="120" fill="#e9c6c0" /> 
+          <text x="170" y="360" class="heavy">JavaScript</text>
+          <circle class='sa scaleDown' id="circle5" cx="80" cy="240" r="80" fill="#f9c67f" /> 
+          <text x="40" y="250" class="heavy">React</text>
+        </svg>
+      </div>
+    </div>
+    <div class="home-main-content-bottom">
+      <div class="home-main-content-bottom-title">
+        <h1>+ TECH STACK</h1>
+        <p id="shadow-text">"기술 스택과 연관된 것들을 배웠습니다"</p>
+      </div>
+      <ul class="home-main-content-bottom-list">
+        <li>JS 관련 STACK</li>
+        <div class="divide"></div>
+        <p>Webpack</p>
+        <p>Babel</p>
+        <p>npm & yarn</p>
+        
+        <br>
+        
+        <li>협업 Tool</li>
+        <div class="divide"></div>
+        <p>Notion</p>
+        <p>Github & Git</p>
+        <p>Slack</p>
+
+        <br>
+
+        <li>배포 Tool</li>
+        <div class="divide"></div>
+        <p>Netlify</p>
+        <p>GitHub</p>
+        
+      </ul>
+    </div>
+    <div class="home-main-content-last">
+      <div class="home-main-content-bottom-title">
+        <h1>+ 학습 기록</h1>
+        <p id="shadow-text">"클릭하면 이동합니다"</p>
+      </div>
+      <ul class="home-main-content-bottom-list">
+        <p><a href="https://github.com/KKANGJIA">Github</a></p>
+        <p><a href="https://powderbluee.tistory.com/">Blog</a></p>
+      </ul>
+    </div>
+  </section>
+
+  <section class="project-main-section">
+    <div class="project-main-section-top">
+      <div class="project-main-section-top-title">
+        <h1>PROJECTS</h1>
+        
+      </div>
+      <div class="project-main-section-bottom">
+        <table class="project-main-section-bottom-table">
+          <tr>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Date</td>
+          </tr>
+          <tr>
+            <td>aT 빅데이터 온라인 해커톤</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Toy Project, Diary</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>CloneCoding By React</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div id="project-main-section-buttons">
+        <button class="buttons">
+          <p><a href="https://github.com/KKANGJIA">GitHub에서 더보기</a></p>
+        </button>
+        <button class="buttons">
+          <p><a href="https://powderbluee.tistory.com/">Tistory 블로그 더보기</a></p>
+        </button>
+        <button class="buttons">
+          <p>포트폴리오 더보기</p>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="file-main-section">
+    <div class="file-main-section-top">
+      <div class="file-main-section-top-texts">
+        <p style="color: orange">YOU</p>
+        <div class="you-divide"></div>
+        <p id="you">벌써 여기까지 읽었다구요?</p><br>
+        <p style="color: green">ME</p>
+        <div class="me-divide"></div>
+        <p id="me">제가 더 궁금해지셨군요!</p>
+      </div>
+      <div class="file-main-section-top-img"></div>
+      <div class="file-main-section-top-buttons-top">
+        <button class="buttons">이력서</button>
+        <button class="buttons">자기소개서</button>
+      </div>
+      <div class="file-main-section-top-buttons-bottom">
+        <button class="buttons" id="tel">핸드폰번호</button>
+        <button class="buttons">010-8615-6536</button>
+        <button class="buttons" id="email">이메일</button>
+        <button class="buttons">rkdwldk16@gmail.com</button>
+      </div>
+    </div>
+    
+  </section>
+
+
+  <footer id="footer">
+      <span class="copyright">@Kang Jia inc.</span>
+    </div>
+  </footer>
+</body>
+</html>
