@@ -1,0 +1,110 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Hina+Mincho&display=swap");
+
+* {
+  font-family: "Gowun Batang", serif;
+  /* font-family: "Hina Mincho", serif; */
+  box-sizing: border-box;
+  width: 100%;
+
+  /* text-align: center; */
+}
+
+:root {
+  --opacity--line: rgba(204, 204, 204, 0.363);
+  --opacity--text: rgb(170, 170, 170);
+  --point-color: red;
+}
+
+body {
+  margin: 40px 100px;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+.divide {
+  width: 90%;
+  height: 1px;
+  margin: 20px 0px;
+  text-align: center;
+  background-color: black;
+}
+
+.main-title {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.bottom-title {
+  font-size: 1.2em;
+}
+
+.col-1 {
+  display: inline-block;
+  width: calc(8.33% * 1.5 - 1.25rem);
+  margin: 0 1.25rem 0 1.25rem;
+}
+
+.col-5 {
+  display: inline-block;
+  width: calc(8.33% * 4 - 1.25rem);
+  margin: 0 1.25rem 0 1.25rem;
+}
+
+.divide-line {
+  padding: 20px 0px;
+  border-bottom: 1px solid var(--opacity--line);
+}
+.study-log-highline,
+.tech-stack-highline {
+  margin: 20px 0px;
+}
+
+.detail {
+  margin: 50px 0px;
+}
+
+.imgBox {
+  margin: auto;
+  text-align: center;
+}
+
+.img-home,
+.img-aT,
+.img-toy {
+  width: 800px;
+  height: 500px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show-detail:hover {
+  cursor: pointer;
+}
+
+.opacity-text {
+  color: var(--opacity--text);
+}
+
+.dot {
+  text-align: center;
+  margin: auto;
+  color: #ccc;
+  font-size: 1.7em;
+}
+
+.click:hover {
+  cursor: pointer;
+}
+
+.point {
+  color: var(--point-color);
+  text-decoration: none;
+  font-weight: bold;
+}
