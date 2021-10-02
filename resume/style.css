@@ -73,11 +73,16 @@ h4 {
   text-align: center;
 }
 
-.img-home,
+.img-shopping,
 .img-aT,
-.img-toy {
+.img-diary {
   width: 800px;
   height: 500px;
+}
+
+.img-youtube{
+  width: 800px;
+  height: 800px;
 }
 
 .hidden {
